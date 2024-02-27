@@ -1,0 +1,30 @@
+body{
+    background-color:black;
+    height:5px;
+    margin:15% 25%;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: auto auto;
+}
+
+.content{
+    font-family: sans-serif; 
+}
+
+button{
+    color: white;
+    text-align: center;
+    width:55%;
+    height:50px;
+    background-color: black;
+    border-radius: 15px;
+    border: 0;
+    cursor:pointer;
+}
+
+button:active{
+    color:black;
+    background-color: white;
+}
